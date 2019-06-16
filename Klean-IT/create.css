@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+    height: 150vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body .container1{
+    background-color: #008B8B;
+    margin-bottom: 3%;
+    height: 50vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+    font-weight: bolder;
+}
+body .container1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #ADFF2F;
+    font-size: 40px;
+
+}
+body .container1 .navbar{
+    background-color:WHITE;
+    height: 8vh;
+
+}
+body .container1 .navbar .header{
+    display: flex;
+    background-color:#2F4F4F;
+    height: 7vh;
+    border-radius: 10px; 
+
+}
+body .container1 .navbar .header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+}
+body .container1 .navbar .header ul a:link{
+    color: red;
+    text-decoration: none;
+    font-size: x-large;
+}
+body .container1 .navbar .header ul a:visited{
+    color: white; 
+}
+body .container1 .navbar .header ul a:hover{
+    color: red;  
+}
+
+body .login{
+    border: 5px solid #2F4F4F ;
+    width: 40%;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    margin-top: none;
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    background-color: #ADFF2F;
+    font-weight: bolder;
+    width: 15%;
+    height: 20%;
+    border-radius: 50px;
+}
+button a:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
